@@ -4,8 +4,7 @@ This repository contains the Blog section of the Simba Wealth Consultancy websit
 
 ## LIVE Blog Website
 Click on the link below to view the blog.
-https://plp-webtechnologies.github.io/Simba-Wealth-Consultancy-blog/
-
+https://simba-wealth-consultancy-blog.vercel.app/index.html
 ## Project Overview
 The Simba Wealth Consultancy Blog shares expert insights into personal finance, investment strategies, and emerging fintech trends. It includes:
 
