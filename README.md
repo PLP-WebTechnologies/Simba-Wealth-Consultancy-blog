@@ -49,30 +49,7 @@ simba-wealth-blog/
 └── images/          # Blog and hero images
 
 
-## Getting Started
 
-1.  **Clone the repository (if applicable):**
-    ```bash
-    git clone [your repository URL]
-    ```
-    
-
-2.  **Open `index.html`:** Open the `index.html` file in your web browser to view the website.
-
-3.  **Modify and Customize:**
-    *   Edit the `index.html` file to change the content, text, and structure.
-    *   Modify the `styles.css` file to adjust the styling and appearance.
-    *   Update the `script.js` file to add or modify JavaScript functionality.
-    
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
-
-1.  Fork the repository.
-2.  Create a new branch for your feature or bug fix.
-3.  Make your changes and commit them.
-4.  Submit a pull request.
 
 ## Contact
 
