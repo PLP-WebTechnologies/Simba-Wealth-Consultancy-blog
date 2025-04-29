@@ -80,7 +80,7 @@ nav a:hover::after {
 }
 .cta-button {
   display: inline-block;
-  background: rgb(7, 241, 144);
+  background: rgb(7, 225, 241);
   color: var(--primary);
   padding: .75rem 1.5rem;
   border-radius: 50px;
@@ -192,6 +192,8 @@ nav a:hover::after {
     white-space: nowrap;
   }
 
+  
+
   /* Footer social icons */
 footer .social-media {
     margin-top: 1rem;
@@ -210,13 +212,22 @@ footer {
     padding: 2rem;
     text-align: center;
     background: var(--dark);
-    color: white;
+    color: rgb(243, 235, 235);
     margin-top: 2rem;
   }
   footer .social-media a {
     margin: 0 .5rem;
-    color: white;
+    color: rgb(129, 126, 126);
     text-decoration: none;
+
+  }
+
+  footer .social-media img{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline;
   }
 
   /* Floating WhatsApp chat button */

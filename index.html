@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simba Wealth Consultancy</title>
+    <link rel="icon" href="images/Simba Wealth logo.jpeg" type="image/jpg" sizes="16x16">
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -17,7 +18,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#blog">Blog</a></li>
+                <li><a href="#blog">Blog</a>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -38,7 +39,7 @@
             <div class="about-content">
                 <p><strong>Founder:</strong> Samuel Koyo</p>
                 <p>Simba Wealth Consultancy is dedicated to helping you achieve your financial goals.</p>
-                <p>We provide expert guidance on personal finance, wealth management, and investment strategies.</p>
+                <p>We provide expert guidance on personal finance, wealth management, insurance, tax advisory and investment strategies.</p>
                 <p><strong>Mission:</strong> To empower individuals and businesses with innovative financial solutions.</p>
                 <p><strong>Vision:</strong> To be a leading provider of financial services that enhance financial literacy and promote wealth creation.</p>
             </div>
@@ -68,7 +69,7 @@
                     <p>Empower yourself with the knowledge to make smart financial decisions.</p>
                 </div>
                 <div class="service-item">
-                    <h3>Tax Planning</h3>
+                    <h3>Tax Advisory</h3>
                     <img src="images/Tax Planning.jpg" alt="Tax Planning">
                     <p>Minimize your tax liabilities and maximize your returns.</p>
                 </div>
@@ -87,31 +88,31 @@
                     <img src="images/Bitcoin Investment image.jpg" alt="Bitcoin Investment">
                     <h3><a href="#" onclick="openBlog('bitcoin-guide')">Bitcoin: A Beginner's Guide</a></h3>
                     <p>Explore the world of Bitcoin, understand its potential, and learn how to get started.</p>
-                    <button class="btn-blog animate__animated">Learn More</button>
+                    <button class="btn-blog animate__animated" class="btn-blog" onclick="openBlog('bitcoin-guide')">Learn More</button>
                 </article>
                 <article class="blog-post">
                     <img src="images/Budgeting Tips image.jpg" alt="Budgeting Tips">
                     <h3><a href="#" onclick="openBlog('budgeting-101')">Budgeting 101: Taking Control of Your Finances</a></h3>
                     <p>Learn essential budgeting techniques to manage your income and expenses effectively.</p>
-                    <button class="btn-blog animate__animated">Learn More</button>
+                    <button class="btn-blog animate__animated" class="btn-blog" onclick="openBlog('budgeting-101')">Learn More</button>
                 </article>
                 <article class="blog-post">
                     <img src="images/Stock Market Investing image.jpg" alt="Stock Market Investing">
                     <h3><a href="#" onclick="openBlog('stock-market-investing')">Investing in the Stock Market: A Step-by-Step Guide</a></h3>
                     <p>A comprehensive guide to investing in the stock market, including tips and strategies.</p>
-                    <button class="btn-blog animate__animated">Learn More</button>
+                    <button class="btn-blog animate__animated" class="btn-blog" onclick="openBlog('stock-market-investing')">Learn More</button>
                 </article>
                 <article class="blog-post">
                     <img src="images/Fintech Innovations.jpg" alt="Fintech Innovations">
                     <h3><a href="#" onclick="openBlog('fintech-innovations')">Fintech Innovations: The Future of Finance</a></h3>
                     <p>Discover the latest innovations in fintech and how they are transforming the financial landscape.</p>
-                    <button class="btn-blog animate__animated">Learn More</button>
+                    <button class="btn-blog animate__animated" class="btn-blog" onclick="openBlog('fintech-innovations')">Learn More</button>
                 </article>
                 <article class="blog-post">
                     <img src="images/Cryptocurrency Trends.jpg" alt="Cryptocurrency Trends">
                     <h3><a href="#" onclick="openBlog('cryptocurrency-trends')">Cryptocurrency Trends to Watch in 2025</a></h3>
                     <p>Stay ahead of the curve with insights into the top cryptocurrency trends for the coming year.</p>
-                    <button class="btn-blog animate__animated">Learn More</button>
+                    <button class="btn-blog animate__animated" class="btn-blog" onclick="openBlog('cryptocurrency-trends')">Learn More</button>
                 </article>
             </div>
         </section>
@@ -142,31 +143,45 @@
     <footer>
         <p>&copy; 2025 Simba Wealth Consultancy. All Rights Reserved.</p>
         <div class="social-media">
-          <a
-            href="https://www.facebook.com/profile.php?id=61557988963200"
-            target="_blank"
-            rel="noopener"
-            aria-label="Simba Wealth on Facebook"
-          >
-            <i class="fa-brands fa-facebook-f"></i>
-          Facebook</a>
-          <a
-            href="https://x.com/Koyotito_56"
-            target="_blank"
-            rel="noopener"
-            aria-label="Samuel Koyo on Twitter"
-          >
-            <i class="fa-brands fa-twitter"></i>
-          Twitter</a>
-          <a
-            href="https://www.linkedin.com/in/samuel-koyo-83000b245/"
-            target="_blank"
-            rel="noopener"
-            aria-label="Samuel Koyo on LinkedIn"
-          >
-            <i class="fa-brands fa-linkedin-in"></i>
-          LinkedIn</a>
-        </div>
+            <a
+              href="https://www.facebook.com/profile.php?id=61557988963200"
+              target="_blank"
+              rel="noopener"
+              aria-label="Simba Wealth on Facebook"
+            >
+            <img 
+            src="images/facebook icon.jpg"
+            alt="Facebook"
+            class="social-icon"
+            style="width:24px; height:24px;"
+            
+          />
+              
+            <a
+              href="https://x.com/Koyotito_56"
+              target="_blank"
+              rel="noopener"
+              aria-label="Samuel Koyo on Twitter"
+            >
+            <img
+            src="images/twitter icon.jpg"
+            alt="twitter"
+            class="social-icon"
+            style="width:24px; height:24px;"
+          />
+            <a
+              href="https://www.linkedin.com/in/samuel-koyo-83000b245/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Samuel Koyo on LinkedIn"
+            > 
+            <img
+            src="images/linkedin icon.jpg"
+            alt="LinkedIn"
+            class="social-icon"
+            style="width:24px; height:24px;"
+          />
+          </div>
       </footer>
       
 

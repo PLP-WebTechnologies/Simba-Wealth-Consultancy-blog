@@ -47,3 +47,33 @@ function smoothScrollTo(hash) {
     }
   });
   
+  
+  async function openBlog(id) {
+    const mapping = {
+      'bitcoin-guide': 'bitcoin-guide.html',
+      'budgeting-101': 'budgeting-101.html',
+      'fintech-innovations': 'fintech-innovations.html',
+      'cryptocurrency-trends': 'cryptocurrency-trends.html',
+      'stock-market-investing': 'stock-market-investing.html'  // ← new entry
+    };
+    const file = mapping[id];
+    if (!file) return;
+    try {
+      const res = await fetch(file);
+      if (!res.ok) throw new Error('Failed to load ' + file);
+      const html = await res.text();
+      const viewer = document.getElementById('blog-viewer');
+      viewer.innerHTML = html;
+      viewer.style.display = 'block';
+      viewer.classList.replace('animate__fadeOut', 'animate__fadeIn');
+      viewer.scrollIntoView({ behavior: 'smooth' });
+    } catch (e) {
+      console.error(e);
+      alert('Sorry, could not load the content.');
+    }
+  }
+
+  function openBlog(id) {
+    // Navigate to the corresponding HTML file
+    window.location.href = id + '.html';
+  }
