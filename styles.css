@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 :root {
-  --primary: #ff6f61;
+  --primary: #106322;
   --secondary: #4a90e2;
   --light: #f9f9f9;
   --dark: #333;
@@ -29,7 +29,7 @@ header {
   background: var(--light);
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
-header .logo { height: 50px; }
+header .logo { height: 100px; width: 100px; border-radius: 50%; object-fit: cover; display: block; }
 nav ul {
   display: flex;
   gap: 1.5rem;
@@ -60,7 +60,12 @@ nav a:hover::after {
   justify-content: space-between;
   padding: 4rem 2rem;
   background: linear-gradient(135deg, var(--secondary), var(--primary));
-  color: white;
+  background-size: cover;
+  background-image: url('images/Financial Planning Image.jpg');
+  background-repeat: no-repeat;
+  color: rgb(221, 245, 6);
+  text-align: center;
+  padding: 100px 0;
 }
 .hero-content {
   flex: 1;
@@ -75,7 +80,7 @@ nav a:hover::after {
 }
 .cta-button {
   display: inline-block;
-  background: white;
+  background: rgb(7, 241, 144);
   color: var(--primary);
   padding: .75rem 1.5rem;
   border-radius: 50px;
@@ -170,8 +175,8 @@ nav a:hover::after {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #ff6f61, #f8b500);
-    color: #fff;
+    background-color: #e6a10b;
+    color: #0c0c0c;
     font-weight: 600;
     padding: 0.75rem 1.5rem;
     border: none;
@@ -220,6 +225,9 @@ footer {
     bottom: 2rem;
     right: 2rem;
     background: #25d366;
+    background-image: url('images/whatsap icon .jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #fff;
     width: 4rem;
     height: 4rem;
